@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+
+* {
+  font-family: 'Space Grotesk', sans-serif;
+}
+
+body {
+  background-color: #D3F1E8;
+}
+
+h1 {
+  color: #06A298;
+}
+
+h1 ~ p {
+  color: #3B6054;
+  margin-top: 0;
+}
+
+.App {
+  text-align: center;
+  margin: 70px;
+  margin-top: 0px;
+  position: relative;
+  min-height: 100vh;
+}
+
+.App-header {
+  padding-bottom: 5rem;
+}
+
+.App-header, header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(8px + 2vmin);
+  color: #3B6054;
+  width: 100%;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+#button, button {
+  background-color: #FFFFFF;
+  border: 3px solid #06A298;
+  padding: 10px;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
+  border-radius: 12px;
+  font-size: 20px;
+  margin: 15px;
+  color: #3B6054;
+}
+
+#button:hover, button:hover {
+  background-color: grey;
+}
+
+table {
+  border-spacing: 0;
+  width: 100%;
+  table-layout: fixed;
+}
+
+thead {
+  height: 10vh;
+  width: 50%;
+}
+
+td, th {
+  font-size: 18px;
+  border: 1px solid #B3B7B6;
+  padding: 0.25em;
+  color: #3B6054;
+}
+
+tr:nth-child(even){background-color: #D3E8E2;}
+
+tr:nth-child(odd){background-color: #E2E8EC;}
+
+tr:hover {background-color: #ffff;}
+
+tr #icon {
+  padding-top: 5px;
+  font-size: 25px;
+}
+
+th {
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: center;
+  background-color: #06A298;
+  color: #D3F1E8;
+}
+
+input {
+  background-color:#E2E8EC;
+  background: transparent;
+  color: #3B6054;
+  font-size: 18px;
+  width: 100%;
+  display: block;
+  border: none;
+}
+
+input::placeholder {
+  color: #3B6054;
+}
+
+footer {
+  color: #3B6054;
+  font-size: 18px;
+  position: absolute;
+  bottom: 0px;
+  width: 100%;
+  height: 2.5rem;  
+}
+
+
